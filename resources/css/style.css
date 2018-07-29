@@ -8,7 +8,7 @@ body {
   opacity: 0.9;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4 {
   margin: 0;
 }
 
@@ -104,4 +104,20 @@ header {
 
 .address h3{
   margin: 15px 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  text-align: left;
+}
+
+h5 {
+  margin: 20px;
 }
