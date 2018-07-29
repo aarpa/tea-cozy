@@ -1,10 +1,20 @@
 body {
   margin: 0;
+  max-width: 1200px;
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+h2, h3, h4, h5 {
+  margin: 0;
+}
+
+.title, .subtitle {
+  margin: 10px 0;
+  text-align: center;
 }
 
 header {
@@ -33,13 +43,65 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/mission_background.jpg");
   height: 700px;
   padding-top: 70px;
+  background-image: url("../images/mission_background.jpg")
 }
 
 .mission-statement {
   width: 1200px;
   background-color: black;
   text-align: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+}
+
+.tea-intro {
+  width: 1000px;
+  text-align: center;
+}
+
+.tea-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tea-selection img {
+  width: 300px;
+  height: 200px;
+  margin: 5px 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/location_background.jpg");
+  height: 575px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  width: 980px;
+}
+
+.address div {
+  background-color: black;
+  width: 300px;
+  text-align: center;
+}
+
+.address h3{
+  margin: 15px 0;
 }
